@@ -6,18 +6,19 @@
   <title>Document</title>
   <script type="module" crossorigin src="/js-hw-09/form.js"></script>
   <link rel="modulepreload" crossorigin href="/js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="stylesheet" crossorigin href="/js-hw-09/assets/form-BGxIdM9p.css">
 </head>
 <body>
-  <form class="feedback-form" autocomplete="on">
+  <form class="feedback-form" autocomplete="off">
     <label>
       Email
-      <input type="email" name="email" autofocus />
+      <input class="input email" type="email" name="email" autofocus placeholder="Type area"/>
     </label>
     <label>
       Message
-      <textarea name="message" rows="8"></textarea>
+      <textarea class="input message" name="message" rows="8"></textarea>
     </label>
-    <button type="submit">Submit</button>
+    <button class="submit-button" type="submit">Submit</button>
   </form>
 
 </body>
